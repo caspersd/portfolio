@@ -1,6 +1,13 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
+code {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f5f5f5; /* Yellowish text for contrast */
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: monospace;
+}
 
 @font-face {
     font-family: 'Hk Grotesk';

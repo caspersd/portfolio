@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <title>
-    David Caspers | Graduate Student | Data Science | Marine Veteran | DIY Enthusiast | Tinkerer
+  <title>David Caspers | Data Scientist | Applied Data Science | Marine Veteran | AI & NLP | Cloud Computing
   </title>
 
-  <meta name="description" content="Marine Corps veteran">
-  <meta name="keywords" content="David Caspers, Data Science, Machine Learning, Python, R, SQL, Big Data, Data Analysis, Predictive Modeling, AWS, TensorFlow, PyTorch, Pandas, NumPy, Scikit-Learn, Data Visualization, Tableau, Data Mining, NLP, Econometrics, Statistical Analysis, Artificial Intelligence, Cloud Computing, Kubernetes, Deep Learning, Data Wrangling, Marine Corps, Technical Sales, Confluent, AWS Certified Solutions Architect, PCAP Certified Associate Python Programmer, Git, Data Engineering, ETL, Excel" />
+  <meta name="description" content="Data Scientist and Marine Corps Veteran specializing in Machine Learning, NLP, Predictive Analytics, and Cloud Computing. Master's student in Applied Data Science at Syracuse University." />
+  
+  <meta name="keywords" content="David Caspers, Data Science, Machine Learning, NLP, Predictive Analytics, Python, R, SQL, Big Data, Data Engineering, AI, Deep Learning, TensorFlow, PyTorch, AWS, Cloud Computing, Kubernetes, Scikit-Learn, Pandas, NumPy, Tableau, Data Wrangling, Apache Spark, ETL, Marine Corps, Technical Sales, Confluent, Git, PCAP Certified, AWS Certified, Data Visualization, Strategic Planning, Business Intelligence" />
+  
   <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -24,13 +25,9 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
-          <li class="nav__item"><a href="#certifications" class="nav__link">Professional Certifications</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -39,11 +36,14 @@
         <h1 class="heading-primary">
           <span>David Caspers</span>
         </h1>
-        <p>A Syracuse University Masters Student in Applied Data Science based in Austin, Texas.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Data Scientist | Marine Corps Veteran | Applied Data Science Master's Student</p>
+        <p>
+          Specializing in <strong>Machine Learning, NLP, Predictive Analytics, and Cloud Computing</strong>. Passionate about leveraging AI and data-driven solutions to solve real-world challenges.
+        </p>
+        <a href="#contact" class="btn btn--pink">Get in Touch</a>
       </div>
     </div>
-  </header>
+</header>
 
   <main role="main">
 
@@ -51,7 +51,7 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>Independent Data Science Projects</h2>
+        <h2> Applied Data Science Research</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
@@ -60,10 +60,16 @@
                 <div class="work__text">
                   <h3>Analyzing Political Ideology Using NLP on Public Statements</h3>
                   <p>
-                    Built a data-driven framework to evaluate political alignment by analyzing public statements (speech transcripts, tweets, interviews, etc.) using Natural Language Processing (NLP) techniques. Scraped over 37,000 sentences from VoteSmart.org and applied advanced NLP methods to rank politicians' ideological alignment with the Institute of Legislative Analysis' Congressional Limited Government Scorecard.
-                    
-                    This project focuses on the technical application of NLP for political discourse analysis and is nonpartisan in nature.
+                    NOTE: This project focuses on the technical application of NLP for political discourse analysis and is intended to be nonpartisan in nature.
                   </p>
+                  <p>
+                    Project Inspiration: I was interested in this given the recent presidential election, where it seemed like there is very little accountability for the statements politicians make to specific groups of individuals to gain their support that does not necessarily align with the politician's stated political platform. My intent was to build a lightweight, fast method to analyze how a politician's rhetoric ranks along the political spectrum.
+                  </p>
+                  <p>
+                    Project Details: To address the lack of accountability in political rhetoric, I developed a data-driven NLP framework to evaluate how closely a politician's statements align with their stated political platform. Using Natural Language Processing (NLP) techniques, I analyzed over 37,000 sentences from VoteSmart.org, including speech transcripts, tweets, and interviews. I then ranked politicians' ideological alignment by comparing their rhetoric to the Institute of Legislative Analysis' Congressional Limited Government Scorecard.
+                 </p>
+                
+
                   <ul class="work__list">
                     <li>Python</li>
                     <li>Natural Language Processing (NLP):
@@ -81,10 +87,10 @@
                   </ul>
     
                   <div class="work__links">
-                    <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">
+                  <!--  <a href="https://github.com/caspersd/political_ideology_detection/tree/main" target="_blank" class="link__text">
                       Visit Site <span>&rarr;</span>
-                    </a>
-                    <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
+                    </a>-->
+                    <a href="https://github.com/caspersd/political_ideology_detection/tree/main" title="View Source Code" target="_blank">
                       <img src="./images/github.svg" class="work__code" alt="GitHub">
                     </a>
                   </div>
@@ -101,14 +107,51 @@
               <h3>
                 <p>
                 Lung Cancer Detection in Histopathological Images</p></h3>
-              <p>
-                Developed and compared a Convolutional Neural Network (CNN) and Vision Transformer (ViT) to classify lung cancer in histopathological images, leveraging attention mechanisms for enhanced interpretability. The ViT model outperformed the CNN, significantly reducing false negatives and providing visual insights critical for medical diagnostics.
-              </p>
+                <p>
+                  Project Inspiration: During a routine dental check-up, I noticed my hygienist using an AI-assisted tool to analyze X-rays, highlighting areas of concern. This sparked my curiosity about using neural networks for medical imaging. At the same time, I was exploring transformers and wanted to see how attention mechanisms could improve image classification models.
+                  <p>
+                    Project Details: Inspired by AI-assisted dental imaging, I explored deep learning models for medical diagnostics. I developed and compared a Convolutional Neural Network (CNN) and a Vision Transformer (ViT) for lung cancer classification in histopathological images. The ViT model, leveraging attention mechanisms, outperformed the CNN by reducing false negatives and enhancing interpretability, providing critical visual insights for medical professionals.
+                </p>
+                
               <ul class="work__list">
                 <li>Programming: Python</li>
                 <li>Deep Learning: CNNs, Vision Transformers (ViT)</li>
                 <li>Libraries & Tools: TensorFlow, Keras, Hugging Face Transfomers</li>
                 <li>Data Processing: Histopathological image resizing (224x224), normalization, dataset splitting (70-10-20 train-validation-test split)</li>
+                <li>Visualization: ViT attention maps for model interpretability, precision-recall heatmaps, and comparative bar charts for performance metrics</li>
+              </ul>
+
+              <div class="work__links">
+                <!--<a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>-->
+                <a href="https://github.com/caspersd/detecting_lung_cancer/blob/main/README.md" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/lung_cancer_images.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+
+        <!-- detecting illegal fishing -->
+
+        <div class="work__box">
+            <div class="work__text">
+              <h3>
+                <p>
+                Detecting Illegal Fishing</p></h3>
+                <p>
+                  Project Inspiration: My time in the military included extended periods at sea, where we frequently encountered unidentified vessels approaching, often with unclear intentions. This experience made me aware of the challenges in maritime monitoring and the importance of detecting suspicious activity early. Illegal, unreported, and unregulated (IUU) fishing is a major issue, with an estimated 75% of illegal fishing going undetected, leading to significant environmental and economic damage. This project aims to leverage machine learning to enhance maritime surveillance and improve the detection of illegal fishing activity.
+              </p>      
+                <p>
+                Project Description: This project aims to identify fishing activity in trawling vessels to combat illegal, unreported, and unregulated (IUU) fishing, which harms marine ecosystems and depletes fish stocks. Using data from Global Fishing Watch, patterns in vessel behavior, such as speed, location, and distance from shore, were analyzed to detect when vessels were actively fishing. A Random Forest model performed best, achieving 88% accuracy by incorporating information about recent vessel movements. The analysis revealed that fishing vessels typically move slower and operate in specific ocean regions, distinguishing them from vessels in transit or docked. However, the complexity of vessel behavior led to occasional misclassifications, potentially overwhelming monitoring systems. To improve results, future efforts should incorporate more advanced methods and additional factors influencing fishing activity. This study highlights the potential of machine learning to monitor global fishing practices and protect marine ecosystems.      </p>
+              <ul class="work__list">
+                <li>Programming: Python</li>
+                <li>Models Used: K-Means Clustering, DBSCAN (Density-Based Spatial Clustering), Random Forest (with and without lag variables), Linear SVM (Support Vector Machine), Polynomial SVM, Radial Basis Function (RBF) SVM</li>
+                <li>Libraries & Tools: Python, pandas, numpy, matplotlib, seaborn, scikit-learn, GeoPandas, shapely, Jupyter Notebook</li>        <li>Data Processing: Histopathological image resizing (224x224), normalization, dataset splitting (70-10-20 train-validation-test split)</li>
                 <li>Visualization: ViT attention maps for model interpretability, precision-recall heatmaps, and comparative bar charts for performance metrics</li>
               </ul>
 
@@ -122,46 +165,20 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/lung_cancer_images.jpg" class="work__image" alt="Project 1" />
+              <img src="./images/Illegal_Fishing.jpg" class="work__image" alt="Project 1" />
             </div>
           </div>
-
-
-<!-- detecting illegal fishing -->
-
-<div class="work__box">
-    <div class="work__text">
-      <h3>
-        <p>
-        Detecting Illegal Fishing</p></h3>
-      <p>
-        This project aims to identify fishing activity in trawling vessels to combat illegal, unreported, and unregulated (IUU) fishing, which harms marine ecosystems and depletes fish stocks. Using data from Global Fishing Watch, patterns in vessel behavior, such as speed, location, and distance from shore, were analyzed to detect when vessels were actively fishing. A Random Forest model performed best, achieving 88% accuracy by incorporating information about recent vessel movements. The analysis revealed that fishing vessels typically move slower and operate in specific ocean regions, distinguishing them from vessels in transit or docked. However, the complexity of vessel behavior led to occasional misclassifications, potentially overwhelming monitoring systems. To improve results, future efforts should incorporate more advanced methods and additional factors influencing fishing activity. This study highlights the potential of machine learning to monitor global fishing practices and protect marine ecosystems.      </p>
-      <ul class="work__list">
-        <li>Programming: Python</li>
-        <li>Models Used: K-Means Clustering, DBSCAN (Density-Based Spatial Clustering), Random Forest (with and without lag variables), Linear SVM (Support Vector Machine), Polynomial SVM, Radial Basis Function (RBF) SVM</li>
-        <li>Libraries & Tools: Python, pandas, numpy, matplotlib, seaborn, scikit-learn, GeoPandas, shapely, Jupyter Notebook</li>        <li>Data Processing: Histopathological image resizing (224x224), normalization, dataset splitting (70-10-20 train-validation-test split)</li>
-        <li>Visualization: ViT attention maps for model interpretability, precision-recall heatmaps, and comparative bar charts for performance metrics</li>
-      </ul>
-
-      <div class="work__links">
-        <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">
-          Visit Site <span>&rarr;</span>
-        </a>
-        <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-          <img src="./images/github.svg" class="work__code" alt="GitHub">
-        </a>
-      </div>
-    </div>
-    <div class="work__image-box">
-      <img src="./images/Illegal_Fishing.jpg" class="work__image" alt="Project 1" />
-    </div>
-  </div>
-      
+          
+          <!-- Autonomous Mower -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Autonomous Mower (In Progress)</h3>
+              <h3>Autonomous Mower (In Development)</h3>
               <p>
-                An autonomous mower built on a powered wheel chair chasis that can dynamically identify and navigate around obstacles.
+                Project Inspiration: Mowing the lawn is a chore I’d rather automate. Existing robotic mowers are expensive, rely on fragile buried guide wires, and use weak plastic blades that require frequent passes. With RTK GPS becoming more affordable, I’m building a gas-powered autonomous mower that navigates without guide wires and can handle real grass cutting. The goal is a practical system that operates under supervision—so I can work in the yard while it does the job.
+            </p>
+            
+              <p>
+               Project Description: An autonomous mower built on a powered wheel chair chasis that can dynamically identify and navigate around obstacles.
               </p>
               <ul class="work__list">
                 <li>Python</li>
@@ -171,9 +188,9 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/caspersd/autonomous_mower_v1" target="_blank" class="link__text">
+                <!--<a href="https://github.com/caspersd/autonomous_mower_v1" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
-                </a>
+                </a>-->
                 <a href="https://github.com/caspersd/autonomous_mower_v1" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
@@ -194,6 +211,8 @@
         <p>
             For my final project in a data administration course, I created a <strong>Landscaping Quote Management System</strong>, inspired by my lawn work and thoughts on the economics of landscaping businesses. The system automates customer management, quote generation, invoicing, and payment processing to streamline operations.
           </p>
+        <p>
+          SQL Features Utilized:
           <ul class="work__list">
             <li><strong>Tables & Relationships:</strong> Normalized tables with primary and foreign keys.</li>
             <li><strong>Stored Procedures:</strong> Automated quote generation and payment processing.</li>
@@ -201,6 +220,7 @@
             <li><strong>Transaction Management:</strong> Ensured data integrity with <code>BEGIN TRANSACTION</code> and <code>ROLLBACK</code>.</li>
             <li><strong>Aggregate Queries & CTEs:</strong> Simplified reporting for unpaid invoices and total amounts due.</li>
           </ul>
+        </p>
           
 
 
@@ -224,52 +244,10 @@
 
       
     </section>
-    <!-- ***** Team Projects ***** -->   
 
-    <section class="work" id="work">
-        <div class="row">
-          <h2> School Team Projects - Data Science Portfolio</h2>
-          <div class="work__boxes">
-  
-            <!-- Each div with the work__box class is a project. -->
-  
-            <div class="work__box">
-                  <div class="work__text">
-                    <h3>Sentiment Analysis: Classifying Tweets by Emotions</h3>
-                    <p>
-                        This project aims to analyze textual data labeled with emotions to uncover patterns, classify text by emotional content, and explore the nuanced interplay between various emotional expressions. By leveraging machine learning techniques such as Naive Bayes, Support Vector Machines (SVM), Decision Trees, and Latent Dirichlet Allocation (LDA), the study seeks to accurately identify emotions and reveal latent themes in the data. The findings have practical applications in fields like customer sentiment analysis, healthcare, and public policy, enabling organizations to better understand emotional tones and respond effectively.
-                    </p>
-                    <ul class="work__list">
-                    
-                    <li>Algorithms: Naive Bayes (Multinomial, Bernoulli), Latent Dirichlet Allocation (LDA), Decision Tree (Unpruned, Pruned), SVM (Linear, Polynomial, RBF Kernels), MiniBatchKMeans (Clustering)</li>
-                    <li>Libraries & Tools: Scikit-learn, NLTK, Pandas, NumPy, LDAvis</li>
-                    <li>Data Processing: Count Vectorizer, TF-IDF Transformer, Principal Component Analysis (PCA)</li>
-                    <li>Visualization: Matplotlib, Seaborn, WordCloud, LDAvis </li>
-                    </ul>
-      
-                    <div class="work__links">
-                      <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">
-                        Visit Site <span>&rarr;</span>
-                      </a>
-                      <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-                        <img src="./images/github.svg" class="work__code" alt="GitHub">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="work__image-box">
-                    <img src="./images/emotions.jpg" class="work__image" alt="Project 1" />
-                  </div>
-                </div>
-              </div>
-        
-        </div>
-      </div>
-  
-        
-      </section>
 <section class="work" id="work">
   <div class="row full-width">
-    <h2>Projects to Learn and Practice with Algorithms</h2>
+    <h2>Miscellaneous Projects</h2>
     
     <!-- Neural Network Project -->
     <div class="work__content">
@@ -297,18 +275,17 @@
     <!-- LDA Project -->
     <div class="work__content">
       <div class="work__text">
-        <h3>Latent Dirichlet Allocation (LDA)</h3>
+        <h3>Topic Analysis of 110th Congress</h3>
         <p>
-          The project explores the floor debates of the 110th Congress using Latent Dirichlet Allocation (LDA) to identify the key topics discussed and to compare themes across political parties and genders. The analysis reveals shared themes like governance, healthcare, and national security, while also highlighting partisan differences, such as Democrats' focus on social issues and Republicans' emphasis on energy policies and fiscal discipline.
+          Leverages Latent Dirichlet Allocation (LDA) analysis to explore key topics and compare themes across political parties and genders discussed on the floor debates of the 110th Congress. The analysis reveals shared themes like governance, healthcare, and national security, while also highlighting partisan differences, such as Democrats' focus on social issues and Republicans' emphasis on energy policies and fiscal discipline.
         </p>
         <ul class="work__list">
           <li>Algorithms: LDA</li>
           <li>Libraries & Tools: NLTK, Scikit-Learn, Gensim, pandas, numpy</li>
-          <li>(text mining homework 8)</li>
         </ul>
         <div class="work__links">
-          <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-          <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
+          <!--<a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>-->
+          <a href="https://github.com/caspersd/misc_projects/tree/main/Congress_Topic_Analysis" title="View Source Code" target="_blank">
             <img src="./images/github.svg" class="work__code" alt="GitHub">
           </a>
         </div>
@@ -318,18 +295,17 @@
     <!-- Naive Bayes and Decision Tree Project -->
     <div class="work__content">
       <div class="work__text">
-        <h3>Naive Bayes (Multinomial and Bernoulli), Decision Tree</h3>
+        <h3>Sentiment Analysis of Yelp Reviews</h3>
         <p>
           This project applies Naive Bayes and Decision Tree classifiers to analyze Yelp restaurant reviews, focusing on two tasks: identifying positive and negative sentiments and detecting fake reviews. For the sentiment classification task, Naive Bayes models achieved up to 68.5% accuracy, effectively distinguishing between positive and negative reviews. In contrast, for the more challenging task of detecting fake reviews, Decision Tree classifiers performed slightly better than Naive Bayes, with an accuracy of 35.9%, highlighting the significant challenges in reliably identifying deceptive content.
         </p>
         <ul class="work__list">
           <li>Algorithms: MNB, BNB, Decision Tree</li>
           <li>Libraries & Tools: NLTK, Scikit-Learn, pandas, numpy, matplotlib, wordcloud</li>
-          <li>(text mining homework 6)</li>
         </ul>
         <div class="work__links">
-          <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-          <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
+          <!--<a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>-->
+          <a href="https://github.com/caspersd/misc_projects/tree/main/Yelp_Review_Sentiment" title="View Source Code" target="_blank">
             <img src="./images/github.svg" class="work__code" alt="GitHub">
           </a>
         </div>
@@ -339,18 +315,17 @@
     <!-- K-Means and HAC Project -->
     <div class="work__content">
       <div class="work__text">
-        <h3>K-Mean Clustering and Hierarchical Clustering (with Cosine Similarity)</h3>
+        <h3>Detecting patterns in news coverage of political figures</h3>
         <p>
           This project applies K-Nearest Neighbors (KNN) and Hierarchical Clustering with Cosine Similarity to classify news articles and detect patterns in media coverage of political figures. While KNN focused on supervised classification to identify articles by their subject, Hierarchical Clustering highlighted significant overlaps in language use across topics, achieving limited success in distinguishing between figures like Trump, Harris, Walz, and Vance due to shared media narratives.
         </p>
         <ul class="work__list">
           <li>Algorithms: KNN, HAC</li>
           <li>Libraries & Tools: Scikit-Learn, pandas, numpy, matplotlib, seaborn, wordcloud, NewsAPI, scipy</li>
-          <li>(text mining homework 5)</li>
         </ul>
         <div class="work__links">
-          <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-          <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
+          <!--<a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>-->
+          <a href="https://github.com/caspersd/misc_projects/tree/main/political_news_coverage_analysis" title="View Source Code" target="_blank">
             <img src="./images/github.svg" class="work__code" alt="GitHub">
           </a>
         </div>
@@ -360,7 +335,7 @@
     <!-- MNIST Project -->
     <div class="work__content">
       <div class="work__text">
-        <h3>Support Vector Machines (and others)</h3>
+        <h3>MNIST Handwritten digit classification</h3>
         <p>
           This project explores various machine learning models, including Decision Tree, Naïve Bayes, Random Forest, and Support Vector Machines (SVM), to classify handwritten digits using the MNIST dataset. Random Forest emerged as the top performer, achieving 96.45% accuracy, while SVM models offered competitive results with varying computational costs.
         </p>
@@ -369,8 +344,8 @@
           <li>Libraries & Tools: Scikit-Learn, pandas, numpy</li>
         </ul>
         <div class="work__links">
-          <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-          <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
+          <!--<a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>-->
+          <a href="https://github.com/caspersd/misc_projects/tree/main/MNIST" title="View Source Code" target="_blank">
             <img src="./images/github.svg" class="work__code" alt="GitHub">
           </a>
         </div>
@@ -379,124 +354,6 @@
   </div>
 </section>
 
-<!-- ***** TEST ***** -->   
-<section class="work" id="work">
-    <div class="row full-width">
-      <h2>Projects to Learn and Practice with Algorithms</h2>
-      
-      <!-- Neural Network Project -->
-      <div class="work__content">
-        <div class="work__text">
-          <h3>Hand Coded Neural Network</h3>
-          <p>
-            I find the best way to learn an algorithm is to try to implement the code for it by scratch. 
-            In this case, I first implemented a Neural Network with a fixed number of layers and perceptrons. 
-            I then implemented a second version using Python classes and matrix calculus to allow for layers 
-            and perceptrons to be dynamically set.
-          </p>
-          <ul class="work__list">
-            <li>Algorithms: Feed Forward Neural Network</li>
-            <li>Libraries & Tools: NumPy</li>
-          </ul>
-          <div class="work__links">
-            <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-            <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-              <img src="./images/github.svg" class="work__code" alt="GitHub">
-            </a>
-          </div>
-        </div>
-      </div>
-      
-      <!-- LDA Project -->
-      <div class="work__content">
-        <div class="work__text">
-          <h3>Latent Dirichlet Allocation (LDA)</h3>
-          <p>
-            The project explores the floor debates of the 110th Congress using Latent Dirichlet Allocation (LDA) to identify the key topics discussed and to compare themes across political parties and genders. The analysis reveals shared themes like governance, healthcare, and national security, while also highlighting partisan differences, such as Democrats' focus on social issues and Republicans' emphasis on energy policies and fiscal discipline.
-          </p>
-          <ul class="work__list">
-            <li>Algorithms: LDA</li>
-            <li>Libraries & Tools: NLTK, Scikit-Learn, Gensim, pandas, numpy</li>
-            <li>(text mining homework 8)</li>
-          </ul>
-          <div class="work__links">
-            <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-            <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-              <img src="./images/github.svg" class="work__code" alt="GitHub">
-            </a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Naive Bayes and Decision Tree Project -->
-      <div class="work__content">
-        <div class="work__text">
-          <h3>Naive Bayes (Multinomial and Bernoulli), Decision Tree</h3>
-          <p>
-            This project applies Naive Bayes and Decision Tree classifiers to analyze Yelp restaurant reviews, focusing on two tasks: identifying positive and negative sentiments and detecting fake reviews. For the sentiment classification task, Naive Bayes models achieved up to 68.5% accuracy, effectively distinguishing between positive and negative reviews. In contrast, for the more challenging task of detecting fake reviews, Decision Tree classifiers performed slightly better than Naive Bayes, with an accuracy of 35.9%, highlighting the significant challenges in reliably identifying deceptive content.
-          </p>
-          <ul class="work__list">
-            <li>Algorithms: MNB, BNB, Decision Tree</li>
-            <li>Libraries & Tools: NLTK, Scikit-Learn, pandas, numpy, matplotlib, wordcloud</li>
-            <li>(text mining homework 6)</li>
-          </ul>
-          <div class="work__links">
-            <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-            <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-              <img src="./images/github.svg" class="work__code" alt="GitHub">
-            </a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- K-Means and HAC Project -->
-      <div class="work__content">
-        <div class="work__text">
-          <h3>K-Mean Clustering and Hierarchical Clustering (with Cosine Similarity)</h3>
-          <p>
-            This project applies K-Nearest Neighbors (KNN) and Hierarchical Clustering with Cosine Similarity to classify news articles and detect patterns in media coverage of political figures. While KNN focused on supervised classification to identify articles by their subject, Hierarchical Clustering highlighted significant overlaps in language use across topics, achieving limited success in distinguishing between figures like Trump, Harris, Walz, and Vance due to shared media narratives.
-          </p>
-          <ul class="work__list">
-            <li>Algorithms: KNN, HAC</li>
-            <li>Libraries & Tools: Scikit-Learn, pandas, numpy, matplotlib, seaborn, wordcloud, NewsAPI, scipy</li>
-            <li>(text mining homework 5)</li>
-          </ul>
-          <div class="work__links">
-            <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-            <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-              <img src="./images/github.svg" class="work__code" alt="GitHub">
-            </a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- MNIST Project -->
-      <div class="work__content">
-        <div class="work__text">
-          <h3>Support Vector Machines (and others)</h3>
-          <p>
-            This project explores various machine learning models, including Decision Tree, Naïve Bayes, Random Forest, and Support Vector Machines (SVM), to classify handwritten digits using the MNIST dataset. Random Forest emerged as the top performer, achieving 96.45% accuracy, while SVM models offered competitive results with varying computational costs.
-          </p>
-          <ul class="work__list">
-            <li>Algorithms: SVM, Random Forest, Naive Bayes, Decision Tree</li>
-            <li>Libraries & Tools: Scikit-Learn, pandas, numpy</li>
-            <li>data mining homework 7</li>
-
-          </ul>
-          <div class="work__links">
-            <a href="INSERT LINK TO PROJECT" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-            <a href="INSERT LINK TO GITHUB" title="View Source Code" target="_blank">
-              <img src="./images/github.svg" class="work__code" alt="GitHub">
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-  </section>
-  
 
 
 
@@ -528,24 +385,13 @@
       <div class="certifications__card">
         <img src="./images/aws-ml.png" alt="AWS Machine Learning Icon" class="certifications__icon" />
         <h3>AWS Machine Learning Specialty</h3>
-        <p>Earned: Ongoing</p>
+        <p>Earned: January 2025</p>
       </div>
     </div>
   </div>
 </section>
 
-    <!-- ***** Employers ***** -->
 
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Previous Employers</h2>
-        <div class="client__logos">
-          <!-- Previous Employers. -->
-          <img src="./images/USMC.avif" class="client__logo" alt="Company 1" />
-          <img src="./images/confluent.png" class="client__logo" alt="Company 2" />
-        </div>
-      </div>
-    </section>
 
     <!-- ***** About ***** -->
 
@@ -554,23 +400,33 @@
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
-            Insert info about Dave ("ABOUT SECTION")
+              I'm a <strong>Data Scientist and Marine Corps Veteran</strong> with expertise in 
+              <strong>machine learning, NLP, predictive analytics, and data engineering</strong>. 
+              Currently pursuing my <strong>Master of Science in Applied Data Science at Syracuse University</strong>, 
+              I specialize in applying AI-driven solutions to complex business and technical challenges.
             </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <p>
+              With a background in <strong>military leadership, technical sales, and real-time data infrastructure</strong>, 
+              I excel at <strong>translating complex technical concepts into actionable insights</strong>. 
+              My experience spans leading <strong>cross-functional teams, managing multimillion-dollar projects, 
+              and developing scalable machine learning models</strong> for applications in political analysis, 
+              medical imaging, and geospatial intelligence.
+            </p>
+            <p>
+              I'm passionate about leveraging <strong>data-driven decision-making, cloud computing, and automation</strong> 
+              to solve real-world problems. Whether it's <strong>building AI models, optimizing cloud infrastructure, 
+              or crafting innovative data strategies</strong>, I thrive on turning data into impactful solutions.
+            </p>
           </div>
-
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/david_caspers.jpeg" alt="" />
+            <img class="about__photo" src="./images/david_caspers.jpeg" alt="David Caspers" />
           </div>
         </div>
       </div>
     </section>
-  </main>
-
+    
+    
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
@@ -578,13 +434,11 @@
       <h2>Get in Touch</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a intellectually curious, high performing, and 
-          technically grounded Data Scientist to join your team? or want to 
-          ask questions? or have some advice for me, or just want to say "Hi"?
-          In any case, feel free to reach out to me, and I will do my best to respond back.
-          The quickest way to reach out to me is via email. 
+          Looking for a technically skilled, intellectually curious, and high-performing Data Scientist to join your team? Have questions, advice, or just want to say "Hi"?  
+
+          Feel free to reach out! I do my best to respond, and the fastest way to connect with me is via email.
+          
         </p>
-        <!-- Replace the email with yours -->
         <a href="mailto:caspersdavid@gmail.com" class="btn">caspersdavid@gmail.com</a>
       </div>
     </div>
